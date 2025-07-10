@@ -6,7 +6,7 @@ public class connection{
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
         // Correct SID or service name
         // Oracle JDBC connection details
-        String url = "jdbc:oracle:thin:@localhost:1521:XE"; // Use "XE" if your DB name is XE
+        String url = "jdbc:oracle:thin:@localhost:1521:XE"; // Use "XE" if your Data Base name is XE
         String user = "system";    // YOUR USER NAME
         String password = "sai";   // YOUR USE PASSWORD
         System.out.println(url + user + password);
